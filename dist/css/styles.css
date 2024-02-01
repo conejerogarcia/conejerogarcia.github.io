@@ -768,6 +768,9 @@ progress {
   width: 25%;
 }
 
+.toto {
+  color: White;
+}
 .col-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
