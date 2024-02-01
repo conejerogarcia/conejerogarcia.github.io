@@ -493,11 +493,12 @@ progress {
 }
 
 .circular_image {
+  position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: blue;
+  background-color: white;
   /* commented for demo
   float: left;
   margin-left: 125px;
@@ -506,10 +507,13 @@ progress {
   
   /*for demo*/
   display:inline-block;
-  vertical-align:middle;
+  /*vertical-align:middle;*/
 }
 .circular_image img{
-  width:100%;
+  /*width:100%;*/
+  width: auto; 
+  height: 100%;
+  margin-left: -50px; 
 }
 
 .display-1 {
