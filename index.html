@@ -108,60 +108,15 @@
         </section>
         
         <!-- Research Grid-->
-        <section class="page-section bg-light" id="research">
+        <section class="page-section bg-dark" id="research">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Research</h2>
+                    <h2 class="section-heading text-uppercase">Research Projects</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 1-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="dist/assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="dist/assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 3-->
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="dist/assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <!-- Portfolio item 4-->
+                    <!-- Portfolio item 4-->
+                    <div class="col-lg-4 col-sm-6 mb-4">                        
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                 <div class="portfolio-hover">
@@ -474,9 +429,50 @@
                 </div>
             </div>
         </footer>
+        
         <!-- Portfolio Modals-->
+        <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Bottom boundary layer</h2>
+                <p class="item-intro text-muted">Submesoscale processes in the ocean bottom boundary layer</p>
+                <img class="img-fluid d-block mx-auto" src="dist/assets/img/about/Future_SST.png" alt="">
+                <p>
+                  Submesoscale instabilities, fronts, and eddies are a prominent part of the dynamics of the surface boundary layer,
+                  with a wide-range of well documented effects on ocean dynamics, biology, and biogeochemistry.
+                  However, despite key similarities between surface mixed layers at a front and bottom boundary layers (BBLs) over topography,
+                  relatively little is known about the effect of submesoscale turbulence on BBL dynamics.
+                </p>
+                <p>
+                  Our recent work on this topic has shown that the full range of submesoscale instabilities can develop in the BBL.
+                  This finding has implications for how nutrients and pollutants are mixed in coastal regions,
+                  the energetics of the ocean circulation,
+                  and how the deep abyssal waters make their way back to the ocean surface. Many of these topics are the subject of active ongoing research, with available PhD and postdoctoral projects (please <a href="mailto:wenegrat@umd.edu">contact me</a> for more information).
+                </p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        
         <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="dist/assets/img/close-icon.svg" alt="Close modal" /></div>
@@ -484,7 +480,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
-                                    <!-- Project details-->
+                                    <!-- Project details
                                     <h2 class="text-uppercase">Project Name</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <img class="img-fluid d-block mx-auto" src="dist/assets/img/portfolio/1.jpg" alt="..." />
@@ -509,7 +505,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- Portfolio item 2 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
