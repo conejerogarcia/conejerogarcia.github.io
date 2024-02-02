@@ -11382,7 +11382,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/contact.jpg");
+  background-image: url("../assets/img/contact3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11437,6 +11437,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .footer {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
